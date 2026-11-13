@@ -1,6 +1,8 @@
 # Mi-primer-repositorio
 Repositorio  de prueba para subir archivos de php
 
+Es mi primer repositorio para aprender GitHub
+
 Reyes Diaz Jesus Leonel
 
 3°A Programacion Turno Matutino
