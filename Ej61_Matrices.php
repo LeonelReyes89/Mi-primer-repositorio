@@ -7,25 +7,34 @@ $Numeros=array();
 $ValorA=100;
 $ValorB=200;
 echo "Matriz A<br>";
+echo "<table border='2'>
+		<tr>";
 for ($f=0;$f<=2;$f++){
 	for ($c=0;$c<=2;$c++){
 		$NumerosA[$f][$c]=$ValorA;
 		$ValorA+=10;
-		echo $NumerosA[$f][$c]," ";}
-	echo "<br>";}
-echo "<br><br>";
+		echo "<td>" . $NumerosA[$f][$c] . "</td>";}
+	echo "</tr>";}
+echo "</table><br><br>";
 echo "Matriz B<br>";
+echo "<table border='2'>
+		<tr>";
 for ($f=0;$f<=2;$f++){
 	for ($c=0;$c<=2;$c++){
 		$NumerosB[$f][$c]=$ValorB;
 		$ValorB+=10;
-		echo $NumerosB[$f][$c]," ";}
-	echo "<br>";}
-echo "<br><br>";
+		echo "<td>" . $NumerosB[$f][$c] . "</td>";}
+	echo "</tr>";}
+echo "</table><br><br>";
 echo "Matriz C<br>";
+echo "<table border='2'>
+		<tr>";
 for ($f=0;$f<=2;$f++){
 	for ($c=0;$c<=2;$c++){
 		$NumerosC[$f][$c]=$NumerosA[$f][$c]+$NumerosB[$f][$c];
-		echo $NumerosC[$f][$c]," ";}
-	echo "<br>";}
+		echo "<td>" . $NumerosC[$f][$c] . "</td>";}
+	echo "</tr>";}
+echo "</table>"
 ?>
+</html>
+</body>
